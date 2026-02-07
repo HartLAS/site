@@ -13,4 +13,4 @@ Disallow: /api*
 Disallow: /api/*
 Disallow: *?s=
 Disallow: *?p=
-Sitemap: https://hartlas.ru/sitemap.xml
+Sitemap: https://hartlas.github.io/site/sitemap.xml
