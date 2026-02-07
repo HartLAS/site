@@ -1,0 +1,16 @@
+User-agent: Yandex
+Disallow: /api*
+Disallow: /api/*
+Disallow: *?s=
+Disallow: *?p=
+User-agent: Googlebot
+Disallow: /api*
+Disallow: /api/*
+Disallow: *?s=
+Disallow: *?p=
+User-agent: *
+Disallow: /api*
+Disallow: /api/*
+Disallow: *?s=
+Disallow: *?p=
+Sitemap: https://hartlas.ru/sitemap.xml

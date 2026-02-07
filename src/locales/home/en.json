@@ -1,0 +1,322 @@
+{
+  "header": {
+    "title": "My Portfolio",
+    "nav": {
+      "home": "Home",
+      "instructions": "Instructions"
+    }
+  },
+  "hero": {
+    "hello": "Hi there, my name is",
+    "name": "Artem Babkin",
+    "text_part_one": "I focus on implementing",
+    "text_devops": "DevOps practices,",
+    "text_part_two": "automating and optimizing processes and infrastructure. I help build faster and more efficient application development and deployment pipelines within fault-tolerant and automated environments."
+  },
+  "my_way": {
+    "title": "My Path",
+    "sub_title_part_one": "To Becoming a",
+    "sub_title_part_two": "specialist",
+    "sub_title_text": "I began my career as a Technical Support Specialist and have since progressed to designing and building complex, scalable, automated, and distributed systems. My focus is on ensuring a high-quality application lifecycle.",
+    "workplaces":  [
+        {
+            "name": "Russian Project",
+            "dates": "2018-2019",
+            "description": "As a Technical Support Specialist, I specialized in troubleshooting complex technical issues and delivering clear, step-by-step solutions to users."
+        },
+        {
+            "name": "MPO-RUMYANTSEV JSC",
+            "dates": "2019-2021",
+            "description": "As a System Administrator, I gained hands-on experience with network devices, virtualization systems, and Windows Server environments."
+        },
+        {
+            "name": "Kraftway",
+            "dates": "2021-2024",
+            "description": "Spearheaded the adoption of GitOps, Infrastructure as Code (IaC), and Kubernetes. Subsequently, I successfully migrated the majority of services to Docker containers within the Kubernetes environment with zero data loss. This initiative eliminated development chaos by enforcing DevOps practices and automating key processes. Additionally, I contributed to building web applications."
+        },
+        {
+            "name": "Rostelecom",
+            "dates": "2024-now",
+            "description": "I build and maintain highly available and fault-tolerant, distributed platforms that enable products to scale to millions of users."
+        }
+    ]
+    },
+    "about_me" : {
+        "title": "About me",
+        "sub_title_part_one": "My slogan:",
+        "sub_title_text_part_one": "Nothing is impossible",
+        "sub_title_part_two": "if you have",
+        "sub_title_text_part_two": "the will.",
+        "text_part_one": "I am a DevOps engineer whose mission is to create infrastructure that not only works but scales predictably and withstands failures with resilience.",
+        "text_part_two": "My focus is on designing and implementing highly available Kubernetes platforms and infrastructures that serve as a reliable foundation for business applications.",
+        "text_part_three_part_one": "I transform routine operations into automated pipelines where code moves from commit to production without manual intervention, and the entire infrastructure's state is described and versioned in code.",
+        "block": {
+            "title": "My approach to work",
+            "sub_title": "A strategy built on a deep understanding of DevOps culture: where development speed meets operational reliability.",
+            "items": [
+                {
+                    "title": "Infrastructure as Code",
+                    "text": "Design infrastructure as code with consideration for SLOs, budget constraints, and security requirements. Conduct capacity planning for horizontal scaling to handle peak loads."
+                },
+                 {
+                    "title": "GitOps & CI/CD",
+                    "text": "Automate the entire lifecycle of applications and infrastructure: from provisioning with Terraform and configuration via Ansible, to deployment through ArgoCD, Fleet, or GitLab Runner."
+                },
+                {
+                    "title": "SRE Practices",
+                    "text": "Define SLOs/SLIs for key services. Implement incident response procedures and conduct postmortems to prevent recurring failures."
+                },
+                {
+                    "title": "Observability & Cost Optimization",
+                    "text": "Configure observability stacks for proactive monitoring. Optimize resource consumption of applications in K8s and reduce infrastructure costs."
+                }
+            ]
+        }
+    },
+    "certificates": {
+        "title": "Certificates",
+        "sub_title": "Confirmation of some of my competencies",
+        "list": [
+            "Automating processes with IaC tools",
+            "Containerization with Docker",
+            "Kubernetes",
+            "Microservice architecture",
+            "Load balancing"
+        ]
+    },
+    "instruments": {
+        "title": "Tools & Technologies",
+        "sub_title": "I use in my work",
+        "sub_title_text": "This curated stack is my arsenal for engineering robust, automated, and observable systems. My focus is on building fault-tolerant platforms where processes are transparent and reliability is a given.",
+        "list": {
+            "0": {
+                "title": "Operating Systems",
+                "sub_list": [
+                    "Linux Debian",
+                    "Linux Ubuntu",
+                    "Linux CentOS",
+                    "Linux RedOS",
+                    "Linux Suse",
+                    "Linux Red Hat",
+                    "Windows Server >= 2012"
+                ]
+            },
+            "1": {
+                "title": "Automation",
+                "sub_list": [
+                    "Ansible",
+                    "Bash",
+                    "GO",
+                    "Python",
+                    "Terraform"
+                ]
+            },
+            "2": {
+                "title": "Databases & Cache",
+                "sub_list": [
+                    "ClickHouse",
+                    "EtcD",
+                    "MariaDB",
+                    "MongoDB",
+                    "MySQL",
+                    "PostgreSQL",
+                    "Redis",
+                    "KeyDB",
+                    "LiteSQL",
+                    "Memcached"
+                ]
+            },
+            "3": {
+                "title": "Message Brokers",
+                "sub_list": [
+                    "Apache Kafka",
+                    "Nats",
+                    "RabbitMQ"
+                ]
+            },
+            "4": {
+                "title": "WEB-servers & Balancers",
+                "sub_list": [
+                    "Angie",
+                    "Apache2",
+                    "Apache Tomcat",
+                    "Nginx",
+                    "HaProxy"
+                ]
+            },
+            "5": {
+                "title": "Infra Services",
+                "sub_list": [
+                    "Bind9",
+                    "DHCPd",
+                    "FreeIPA",
+                    "FreeRadius",
+                    "Netbox",
+                    "PHPIpam",
+                    "Squid",
+                    "Unbound",
+                    "Windows Server Solutions"
+                ]
+            },
+            "6": {
+                "title": "Containerization & Orkestration",
+                "sub_list": [
+                    "Docker",
+                    "Docker Compose",
+                    "Docker Swarm",
+                    "ContainerD",
+                    "CRI-o",
+                    "Kubernetes",
+                    "Podman",
+                    "RKE2",
+                    "Rancher"
+                ]
+            },
+            "7": {
+                "title": "Monitoring & Logging",
+                "sub_list": [
+                    "Elastic Stack",
+                    "Grafana",
+                    "Filebeat, FluentBit",
+                    "Loki",
+                    "Prometheus",
+                    "Prometheus Exporters",
+                    "VictoriaMetrics cluster solutions",
+                    "VictoriaLogs",
+                    "Zabbix"
+                ]
+            },
+             "8": {
+                "title": "Data Storages",
+                "sub_list": [
+                    "Ceph",
+                    "Nexus",
+                    "NFS",
+                    "Samba"
+                ]
+            },
+            "9": {
+                "title": "Secrets",
+                "sub_list": [
+                    "Ansible-Vault",
+                    "Passbolt",
+                    "Vault"
+                ]
+            },
+            "10": {
+                "title": "CI/CD",
+                "sub_list": [
+                    "GitLab",
+                    "GitHub",
+                    "Jenkins",
+                    "ArgoCD",
+                    "Fleet"
+                ]
+            },
+            "11": {
+                "title": "Cloud & Virtualization",
+                "sub_list": [
+                    "Yandex Cloud",
+                    "VmWare Cloud Director",
+                    "VmWare ESXi",
+                    "VmWare Vsphere"
+                ]
+            },
+            "12": {
+                "title": "WEB-Development",
+                "sub_list": [
+                    "HTML",
+                    "CSS/SCSS",
+                    "JavaScript",
+                    "VueJS",
+                    "Bootstrap",
+                    "PHP",
+                    "Laravel"
+                ]
+            }
+        }
+    },
+    "contacts": {
+        "title": "Interested in working together? Let’s talk!",
+        "err_global": "All fields are required",
+        "inputs": [
+            {
+                "label": "What’s your name",
+                "placeholder": "Your Name"
+            },
+            {
+                "label": "Email Address",
+                "placeholder": "Your Email"
+            },
+            {
+                "label": "Describe your project, offer or question",
+                "placeholder": "Please describe your project, offer or question in as much detail as possible."
+            }
+        ],
+        "btn": "Contact me",
+        "position": "DevOps/SRE Engineer",
+        "phone_title": "Phone"
+    },
+    "instructions": {
+        "main": {
+            "header_part_one": "The Infinite DevOps Cycle:",
+            "header_part_two": "Your Guide to Endless Automation & Administration",
+            "description": "This knowledge base is a living document. Here you'll find an ever-expanding collection of guides and best practices for dozens of tools."
+        },
+        "groups": [
+        {
+            "name": "Linux Basics",
+            "description": "Introduction to installing and administering operating systems"
+        },
+        {
+            "name": "Automation",
+            "description": "Comprehensive guides: writing scripts in various languages and using IaC tools"
+        }, 
+        {
+            "name": "Databases",
+            "description": "Deploying, managing, and tuning Databases: Relational, NoSQL, and In-Memory"
+        },
+        {
+            "name": "Message Brokers",
+            "description": "Deploying, configuring, and optimizing message queues and streaming platforms"
+        },
+        {
+            "name": "WEB-servers & Balancers",
+            "description": "Building and maintaining high-performance web infrastructure and traffic distribution"
+        },
+        {
+            "name": "Infrastructure services",
+            "description": "Core platform services: DNS, DHCP, VPN and network management"
+        },
+        {
+            "name": "Containerization",
+            "description": "Container engines and management tools"
+        },
+        {
+            "name": "Monitoring & Logging",
+            "description": "Metrics collection, visualization, log aggregation and analysis systems"
+        },
+        {
+            "name": "Data Storages",
+            "description": "File storage solutions: distributed, cloud and on-premise object and block storage"
+        },
+        {
+            "name": "Secrets",
+            "description": "Secure storage, rotation and access control for credentials and certificates"
+        },
+        {
+            "name": "CI/CD",
+            "description": "Building automated pipelines from code commit to production deployment"
+        },
+        {
+            "name": "Kubernetes",
+            "description": "Cluster management, workload orchestration, and ecosystem tooling"
+        }
+        ]
+    },
+    "group_view": {
+        "header": "This is a living knowledge base, regularly updated. Enjoy the read!",
+        "header_navi": "Navigation",
+        "header_tags": "Tags"
+    }
+}

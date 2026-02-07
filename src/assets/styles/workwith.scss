@@ -1,0 +1,71 @@
+.linux-console {
+  background: #1e1e1e;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 800px;
+  margin: 40px auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  font-family: 'Courier New', monospace;
+}
+
+.console-header {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #555;
+}
+
+.console-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.console-btn {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.console-btn.close { background: #ff5f57; }
+.console-btn.minimize { background: #ffbd2e; }
+.console-btn.maximize { background: #28ca42; }
+
+.console-title {
+  color: #ccc;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.console-body {
+  padding: 10px;
+  background: #1e1e1e;
+  min-height: 80px;
+}
+
+.command-line {
+  color: #00ff00;
+  font-size: 0.97rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.prompt {
+  color: #00ff00;
+}
+
+.command {
+  color: #ffffff;
+}
+
+.cursor {
+  color: #00ff00;
+  animation: blink 1s infinite;
+  margin-left: 2px;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}

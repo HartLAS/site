@@ -1,0 +1,19 @@
+.bg-primary-blend-gradient-1 {
+
+    .card {
+        background: var(--gk-gray-900) !important;
+
+        h5 {
+            color: rgba($color: rgb(139,61,255), $alpha: 1.0);
+        }
+
+        p {
+            color: var(--gk-gray-500);
+        }
+
+        small {
+            color: var(--gk-gray-400);
+        }
+    }
+
+}
