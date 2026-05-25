@@ -10,7 +10,7 @@
     "hello": "Hi there, my name is",
     "name": "Artem Babkin",
     "text_part_one": "I focus on implementing",
-    "text_devops": "DevOps practices,",
+    "text_devops": "DevOps/SRE practices,",
     "text_part_two": "automating and optimizing processes and infrastructure. I help build faster and more efficient application development and deployment pipelines within fault-tolerant and automated environments."
   },
   "my_way": {
@@ -32,7 +32,7 @@
         {
             "name": "Kraftway",
             "dates": "2021-2024",
-            "description": "Spearheaded the adoption of GitOps, Infrastructure as Code (IaC), and Kubernetes. Subsequently, I successfully migrated the majority of services to Docker containers within the Kubernetes environment with zero data loss. This initiative eliminated development chaos by enforcing DevOps practices and automating key processes. Additionally, I contributed to building web applications."
+            "description": "Spearheaded the adoption of GitOps, Infrastructure as Code (IaC), and Kubernetes. Subsequently, I successfully migrated the majority of services to Docker containers within the Kubernetes environment with zero data loss. This initiative eliminated development chaos by enforcing DevOps/SRE practices and automating key processes. Additionally, I contributed to building web applications."
         },
         {
             "name": "Rostelecom",
@@ -47,12 +47,12 @@
         "sub_title_text_part_one": "Nothing is impossible",
         "sub_title_part_two": "if you have",
         "sub_title_text_part_two": "the will.",
-        "text_part_one": "I am a DevOps engineer whose mission is to create infrastructure that not only works but scales predictably and withstands failures with resilience.",
+        "text_part_one": "I am a DevOps/SRE engineer whose mission is to create infrastructure that not only works but scales predictably and withstands failures with resilience.",
         "text_part_two": "My focus is on designing and implementing highly available Kubernetes platforms and infrastructures that serve as a reliable foundation for business applications.",
         "text_part_three_part_one": "I transform routine operations into automated pipelines where code moves from commit to production without manual intervention, and the entire infrastructure's state is described and versioned in code.",
         "block": {
             "title": "My approach to work",
-            "sub_title": "A strategy built on a deep understanding of DevOps culture: where development speed meets operational reliability.",
+            "sub_title": "A strategy built on a deep understanding of DevOps/SRE culture: where development speed meets operational reliability.",
             "items": [
                 {
                     "title": "Infrastructure as Code",

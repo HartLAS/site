@@ -68,7 +68,7 @@
                         <h3>{{ $t("my_way.workplaces.3.name") }}</h3>
                         <small class="ls-md fw-semibold active">{{ $t("my_way.workplaces.3.dates") }}</small>
                         <p class="mb-0 s-md fw-semibold text-violet">
-                            Senior DevOps Engineer
+                            Senior SRE Engineer
                         </p>
                         <p class="mb-0 fw-semibold">{{ $t("my_way.workplaces.3.description") }}</p>
                         </div>
